@@ -266,7 +266,7 @@ def generate_response(query, context, genai_model):
     return answer
 
 # Streamlit UI
-st.title("Multi-Modal RAG ---------- Q&A System")
+st.title("Multi-Modal RAG Chatbot")
 
 # Initialize session state if not already initialized
 if 'qa_history' not in st.session_state:
