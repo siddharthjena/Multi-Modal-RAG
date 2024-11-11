@@ -164,7 +164,7 @@ def process_pdf_with_llama(pdf_file):
             pdf_path = tmp_file.name
 
         parser = LlamaParse(
-            api_key="llx-UhRPsfzSqDWqZD6rxUBgczvv5tODtfeM2IASozCHlBxqBDnt",
+            api_key="llx-rprJeq8dEhN3EJke5UDGSSWP1za8GV7540ci1yX8arJmRyWr",
             result_type="markdown",
             verbose=True,
             images=True,
