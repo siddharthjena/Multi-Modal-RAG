@@ -238,7 +238,7 @@ def generate_response(query, context, genai_model):
     
     # Construct prompt for generating response
     prompt = f"""
-    Based ONLY on the following context, answer the question. If relevant details are not fully available, provide the information that is present and kindly note any specific information that is missing. Be helpful by mentioning related information that may assist in answering the question, and offer to expand on available details if useful. Additionally, provide quantitative details where the question is related to quantitative information, such as:
+    Based ONLY on the following context, answer the question. If relevant details are not fully available, provide the information that is present and kindly note any specific information that is missing. Be helpful by mentioning related information that may assist in answering the question, and offer to expand on available details if useful. Additionally, provide quantitative details where needed, such as:
 
     The frequency of key terms (N-grams) in the content.
     The importance score of terms as determined by TF-IDF.
